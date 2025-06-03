@@ -71,7 +71,7 @@ class Box {
 }
 
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(window.innerWidth, window.innerHeight);
   for (let i = 0; i < glyphs.length; i++) {
     boxes.push(
       new Box(
